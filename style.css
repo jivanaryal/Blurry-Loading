@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+   } .main{
+     display: flex;
+  
+     
+    
+  }img{
+   height: 100vh;
+   width: auto;
+   background-repeat: no-repeat;
+   z-index: -1;
+     filter: blur(30px);
+     top: -30px;
+     position: absolute;
+     left: -30px;
+   
+  }.loading-text{
+    font-size: 50px;
+    color: #fff;
+    opacity: 10;
+    margin-left: 30vw;
+    margin-top: 30vh;
+    
+  }
